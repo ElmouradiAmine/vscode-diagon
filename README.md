@@ -2,7 +2,7 @@
 
 Level up your commenting skills with Diagon. It will allow you to transform markdown style expressions into an ascii-art representation.
 
-![screencast](https://i.imgur.com/CwEU9Ql.gif)
+![screencast](https://i.imgur.com/ZmdLGrL.gif)
 
 ## Extension Settings
 
