@@ -3,9 +3,12 @@
   "displayName": "vscode-diagon",
   "description": "",
   "version": "0.0.1",
+  "author": "Amine Elmouradi",
+  "publisher": "elmouradiamine",
   "engines": {
     "vscode": "^1.61.0"
   },
+  "repository": "https://github.com/ElmouradiAmine/vscode-diagon",
   "categories": [
     "Other"
   ],
