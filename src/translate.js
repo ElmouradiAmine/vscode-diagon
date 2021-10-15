@@ -20,10 +20,12 @@ async function translate() {
     canPickMany: false,
   });
 
-  const translation = await diagon.translate(translator, text.trim());
-  editor.edit((text) =>
-    text.replace(editor.selection, translation.trim())
-  );
+  if (translator) {
+      const translation = await diagon.translate(translator, text.trim());
+      editor.edit((text) =>
+        text.replace(editor.selection, translation.trim())
+      );
+  }
 }
 
 module.exports = translate;
