@@ -20,6 +20,10 @@ Please if there are any bugs feel free to open issues on the [github repository]
 
 Initial release of vscode-diagon.
 
+### 0.0.2
+
+Bug fix extension
+
 
 ## Credits
 This project wouldn't have been possible without the work of @ArthurSonzogni on `Diagon` project.

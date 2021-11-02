@@ -1,12 +1,10 @@
 const diagon = require("@elmouradiamine/diagon");
 const vscode = require("vscode");
 
-
-
 async function translate() {
   const editor = vscode.window.activeTextEditor;
   const text = editor.document.getText(editor.selection);
-  
+
   const options = [
     "Math",
     "Sequence",
@@ -23,10 +21,8 @@ async function translate() {
   });
 
   if (translator) {
-      const translation = await diagon.translate(translator, text.trim());
-      editor.edit((text) =>
-        text.replace(editor.selection, translation.trim())
-      );
+    const translation = await diagon.translate(translator, text.trim());
+    editor.edit((text) => text.replace(editor.selection, translation));
   }
 }
 
